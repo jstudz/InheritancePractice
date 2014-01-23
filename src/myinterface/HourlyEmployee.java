@@ -3,6 +3,6 @@
 package myinterface;
 
 
-public class HourlyEmployee {
+public class HourlyEmployee implements Employee {
     
 }

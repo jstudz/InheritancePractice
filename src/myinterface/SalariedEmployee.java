@@ -2,6 +2,6 @@
 
 package myinterface;
 
-public class SalariedEmployee {
+public class SalariedEmployee implements Employee{
     
 }

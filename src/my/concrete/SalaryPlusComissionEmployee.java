@@ -3,6 +3,6 @@
 package my.concrete;
 
 
-public class SalaryPlusComissionEmployee {
+public class SalaryPlusComissionEmployee extends Employee {
     
 }
