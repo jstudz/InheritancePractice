@@ -4,15 +4,17 @@ package myinterface;
 
 
 public class HourlyEmployee implements Employee {
-    private int hourlyWage;
+    private int payRate;
     private int hoursWorked;
+    private String name;
+    private int employeeID;
 
-    public int getHourlyWage() {
-        return hourlyWage;
+    public int getPayRate() {
+        return payRate;
     }
 
-    public void setHourlyWage(int hourlyWage) {
-        this.hourlyWage = hourlyWage;
+    public void setPayRate(int payRate) {
+        this.payRate = payRate;
     }
 
     public int getHoursWorked() {
@@ -35,8 +37,8 @@ public class HourlyEmployee implements Employee {
         this.name = name;
     }
     
-    public void setEmployeeID(int employeeNum) {
-       this.employeeID = employeeID;
+    public void setEmployeeID(int employeeID) {
+        this.employeeID = employeeID;
     }
 }
     

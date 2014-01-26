@@ -2,7 +2,7 @@
 
 package myinterface;
 
-public interface Employee {
+public interface Employee  {
        String name = "";
        int employeeID = 0;
     
