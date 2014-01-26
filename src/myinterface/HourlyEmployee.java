@@ -10,6 +10,7 @@ public class HourlyEmployee implements Employee{
     private String name;
     private int employeeID;
 
+    //Class Methods
     public int getPayRate() {
         return payRate;
     }
@@ -26,6 +27,7 @@ public class HourlyEmployee implements Employee{
         this.hoursWorked = hoursWorked;
     }
     
+    //Interface Methods
     public String getName() {
             return name;
     }
