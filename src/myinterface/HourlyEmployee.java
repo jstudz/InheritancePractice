@@ -3,9 +3,10 @@
 package myinterface;
 
 
-public class HourlyEmployee implements Employee {
+public class HourlyEmployee implements Employee{
     private int payRate;
     private int hoursWorked;
+    private int totalPay;
     private String name;
     private int employeeID;
 
@@ -39,6 +40,11 @@ public class HourlyEmployee implements Employee {
     
     public void setEmployeeID(int employeeID) {
         this.employeeID = employeeID;
+    }
+    
+    public int getPay() {
+        totalPay = payRate * hoursWorked;
+        return totalPay;
     }
 }
     

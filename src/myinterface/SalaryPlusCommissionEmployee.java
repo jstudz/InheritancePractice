@@ -4,6 +4,9 @@ package myinterface;
 
 public class SalaryPlusCommissionEmployee implements Employee{
     
+   public int getPay() {
+        
+    }
     
     public String getName() {
             return name;
