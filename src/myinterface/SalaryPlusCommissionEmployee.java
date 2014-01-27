@@ -8,7 +8,8 @@ public class SalaryPlusCommissionEmployee implements Employee{
    private int commission;
    private int totalSales;
    private int commissionPercentage;
-   
+   private String name;
+   private int employeeID;
    
    //Interface Methods
    public int getPay() {
