@@ -8,6 +8,7 @@ public class SalaryPlusComissionEmployee extends Employee {
     private int commission;
     private int totalSales;
     private int commissionPercentage;
+    private int pay;
 
     public int getSalary() {
         return salary;
@@ -31,6 +32,7 @@ public class SalaryPlusComissionEmployee extends Employee {
     }
 
     public int getCommissionPercentage() {
+        commissionPercentage = commissionPercentage / 100;
         return commissionPercentage;
     }
 
@@ -38,7 +40,10 @@ public class SalaryPlusComissionEmployee extends Employee {
         this.commissionPercentage = commissionPercentage;
     }
     
-    
+    public int getPay() {
+        pay = commission + salary;
+        return pay;
+    }
     
     
 }
