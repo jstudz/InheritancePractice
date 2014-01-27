@@ -2,8 +2,8 @@
 package inheritancepractice;
 
 import java.util.Scanner;
-import myinterface.Employee;
-import myinterface.HourlyEmployee;
+//import myinterface.HourlyEmployee;
+import my.concrete.HourlyEmployee;
 
 public class InheritancePractice {
 
@@ -39,7 +39,7 @@ public class InheritancePractice {
         System.out.println("Employee's ID Number: " + newEmployee.getEmployeeID());
         System.out.println("Employee's pay rate: " + newEmployee.getPayRate());
         System.out.println("Employee's hours worked: " + newEmployee.getHoursWorked());
-        System.out.println("Employee's total pay: " + newEmployee.getPay());
+//        System.out.println("Employee's total pay: " + newEmployee.getPay());
     }
     
     

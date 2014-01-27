@@ -4,6 +4,8 @@ package myinterface;
 
 public class SalariedEmployee implements Employee{
     private int salary;
+    private String name;
+    private int employeeID;
     
   //Interface Methods
   public int getPay() {
@@ -19,11 +21,11 @@ public class SalariedEmployee implements Employee{
   }
     
   public void setName(String name) {
-        
+        this.name = name;
   }
     
   public void setEmployeeID(int employeeNum) {
-      
+       this.employeeID = employeeID;
   }
 
     //Class Methods
