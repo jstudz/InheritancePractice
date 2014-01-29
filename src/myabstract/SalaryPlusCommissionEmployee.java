@@ -6,6 +6,8 @@ public class SalaryPlusCommissionEmployee extends Employee{
     private int salary;
     private int commissionRate;
     private int sales;
+    private int employeeID;
+    private String name;
 
     public int getSalary() {
         return salary;
@@ -31,7 +33,23 @@ public class SalaryPlusCommissionEmployee extends Employee{
         this.sales = sales;
     }
     
-    
+    //Abstract Class methods
+    public String getName() {
+      return name;
+    }
+  
+    public void setName(String name)
+    {
+      this.name = name;
+    }
+  
+    public int getEmployeeID() {
+      return employeeID;
+    }
+  
+    public void setEmployeeID(int employeeID) {
+      this.employeeID = employeeID;
+    }
     
     
 }
