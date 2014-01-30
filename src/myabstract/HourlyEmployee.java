@@ -7,6 +7,7 @@ public class HourlyEmployee extends Employee{
     private int hoursWorked;
     private String name;
     private int employeeID;
+    private String address;
 
     public int getPayRate() {
         return payRate;
@@ -40,5 +41,12 @@ public class HourlyEmployee extends Employee{
   public void setEmployeeID(int employeeID) {
       this.employeeID = employeeID;
   }
-    
+ 
+  public void setAddress (String address) {
+      this.address = address;
+  }
+  
+  public String getAddress() {
+      return address;
+  }
 }

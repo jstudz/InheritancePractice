@@ -6,6 +6,7 @@ public class SalariedEmployee extends Employee{
     private int Salary;
     private int employeeID;
     private String name;
+    private String address;
 
     public int getSalary() {
         return Salary;
@@ -31,5 +32,13 @@ public class SalariedEmployee extends Employee{
   
     public void setEmployeeID(int employeeID) {
       this.employeeID = employeeID;
+    }
+    
+    public void setAddress (String address) {
+      this.address = address;
+    }
+  
+    public String getAddress() {
+      return address;
     }
 }

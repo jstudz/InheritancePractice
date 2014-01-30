@@ -8,6 +8,7 @@ public class SalaryPlusCommissionEmployee extends Employee{
     private int sales;
     private int employeeID;
     private String name;
+    private String address;
 
     public int getSalary() {
         return salary;
@@ -51,5 +52,12 @@ public class SalaryPlusCommissionEmployee extends Employee{
       this.employeeID = employeeID;
     }
     
+    public void setAddress (String address) {
+      this.address = address;
+    }
+  
+    public String getAddress() {
+      return address;
+    }
     
 }
