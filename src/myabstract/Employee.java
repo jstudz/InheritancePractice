@@ -15,7 +15,7 @@ public abstract class Employee {
 
     public int getEmployeeID() {
         return employeeID;
-    };
+    }
 
     public abstract void setEmployeeID(int employeeID);
     
