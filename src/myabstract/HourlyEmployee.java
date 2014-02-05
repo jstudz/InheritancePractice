@@ -9,6 +9,12 @@ public class HourlyEmployee extends Employee{
     private int employeeID;
     private String address;
 
+    
+    @Override
+    public int calcAnnualPay() {
+        return (payRate * hoursWorked) * 52;
+    }
+    
     public int getPayRate() {
         return payRate;
     }

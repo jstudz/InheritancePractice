@@ -7,7 +7,12 @@ public class SalariedEmployee extends Employee{
     private int employeeID;
     private String name;
     private String address;
+    private int annualPay;
 
+    @Override
+    public int calcAnnualPay() {
+        return annualPay;
+    }
     public int getSalary() {
         return Salary;
     }
